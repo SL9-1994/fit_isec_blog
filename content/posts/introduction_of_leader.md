@@ -1,6 +1,6 @@
 +++
 title = "リーダーの自己紹介"
-date = 2025-09-26T00:00:00+00:00
+date = 2025-09-27T00:00:00+00:00
 
 [taxonomies]
 tags = ["Introduction"]

@@ -1,6 +1,6 @@
 +++
 title = "「福岡工業大学 情報セキュリティサークル・FIT ISec」について"
-date = 2025-09-27T00:00:00+00:00
+date = 2025-09-28T00:00:00+00:00
 
 [taxonomies]
 tags = ["Introduction"]
