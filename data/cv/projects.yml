@@ -1,0 +1,8 @@
+- name: "プロジェクト一覧"
+  desc: "プロジェクトは，個人ブログに記載しています．"
+  technologies: ["All"]
+  link:
+    text: "Projects"
+    url: "https://sl9-1994.github.io/x0rbyt3_blog/projects/"
+  start_date: 2025-01-01
+  end_date: 2025-01-01

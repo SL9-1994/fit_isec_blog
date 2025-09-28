@@ -1,0 +1,17 @@
+name = "zola-hacker"
+description = "Fukuoka Institute of Technology Information Security Club"
+license = "MIT"
+homepage = "https://github.com/en9inerd/zola-hacker"
+min_version = "0.19.1"
+demo = "https://zola-hacker.enginerd.io/"
+
+[author]
+name = "Vladimir Loskutov"
+homepage = "https://github.com/en9inerd"
+
+[original]
+author = "Github Pages"
+homepage = "https://pages-themes.github.io/hacker/"
+repo = "https://github.com/pages-themes/hacker"
+
+[extra]

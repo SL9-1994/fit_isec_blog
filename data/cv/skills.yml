@@ -1,0 +1,5 @@
+- type: プログラミング言語
+  tools: [JavaScript/TypeScript, Python, C, Rust, Zsh, WSL2]
+
+- type: フレームワーク
+  tools: [React, Next, Node, Tauri, Actix]
