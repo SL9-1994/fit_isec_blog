@@ -16,6 +16,10 @@ tags = ["Introduction"]
 
 > サークル名の由来: Information Security の頭文字
 
+### 公式 SNS
+
+- [X](https://x.com/FIT_ISec)
+
 <!--more-->
 
 ### サークルの活動状況
