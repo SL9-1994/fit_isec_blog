@@ -1,5 +1,6 @@
 +++
-title = "「福岡工業大学 情報セキュリティサークル・FIT ISec」について"
+title = "「福岡工業大学 情報セキュリティサークル・FIT ISec」"
+description = "sss"
 date = 2025-09-28T00:00:00+00:00
 
 [taxonomies]
@@ -16,9 +17,32 @@ tags = ["Introduction"]
 
 > サークル名の由来: Information Security の頭文字
 
+## 学内の入部希望者について
+
+入部に際して，下記の`入部希望者フォーム`と`簡易入部テスト`を回答してもらう必要があります．<br>
+簡易入部テストでは，時間制限無し且つ検索 OK で，Microsoft Forms を使用した簡単なリテラシーレベルの問題を用意しています．<br>
+また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください．
+これは 2 つのフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．
+
+> 回答には学内メールアドレスでのログインが必要です．
+
+#### 入部希望者フォーム
+
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[埋め込みが動作しない場合はこちらから(入部希望者フォーム)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u)
+
+#### 簡易入部テスト
+
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[埋め込みが動作しない場合はこちらから(簡易入部テスト)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u)
+
 ### 公式 SNS
 
 - [X](https://x.com/FIT_ISec)
+
+#### 右下の`READ MORE`を押し，ページを開くとより詳しい情報が見れます．
 
 <!--more-->
 
@@ -40,20 +64,3 @@ tags = ["Introduction"]
 - `Software Dev`: ソフトウェアやツールの開発
 - `Outreach Lessons`: 学外へのセキュリティリテラシー出前授業
 - `Participate Events`: 学内外のイベントへの参加
-
-## 学内の入部希望者について
-
-入部に際して，下記の`入部希望者フォーム`と`簡易入部テスト`を回答してもらう必要があります．<br>
-簡易入部テストでは，時間制限無し且つ検索 OK で，Microsoft Forms を使用した簡単なリテラシーレベルの問題を用意しています．<br>
-また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください．
-これは 2 つのフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．
-
-> 回答には学内メールアドレスでのログインが必要です．
-
-#### 入部希望者フォーム
-
-<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-#### 簡易入部テスト
-
-<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
