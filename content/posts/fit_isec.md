@@ -19,6 +19,8 @@ tags = ["Introduction"]
 
 ## 学内の入部希望者について
 
+> ※ 現在，簡易入部テストの問題を作成中です．今しばらくお待ちください。
+
 入部に際して，下記の`入部希望者フォーム`と`簡易入部テスト`を回答してもらう必要があります．<br>
 簡易入部テストでは，時間制限無し且つ検索 OK で，Microsoft Forms を使用した簡単なリテラシーレベルの問題を用意しています．<br>
 また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください．
@@ -32,11 +34,6 @@ tags = ["Introduction"]
 
 [埋め込みが動作しない場合はこちらから(入部希望者フォーム)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u)
 
-#### 簡易入部テスト
-
-<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
-[埋め込みが動作しない場合はこちらから(簡易入部テスト)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u)
 
 ### 公式 SNS
 
