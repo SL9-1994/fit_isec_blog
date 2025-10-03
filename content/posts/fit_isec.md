@@ -1,5 +1,5 @@
 +++
-title = "「福岡工業大学 情報セキュリティサークル・FIT ISec」"
+title = "「福岡工業大学 情報セキュリティサークル・FIT ISec」(入部方法)"
 description = "sss"
 date = 2025-09-28T00:00:00+00:00
 
@@ -7,7 +7,7 @@ date = 2025-09-28T00:00:00+00:00
 tags = ["Introduction"]
 +++
 
-# FIT_Isec
+# FIT_ISec
 
 ## 「FIT ISec」とは
 
@@ -22,7 +22,6 @@ tags = ["Introduction"]
 > ※ 現在，簡易入部テストの問題を作成中です．今しばらくお待ちください。
 
 入部に際して，下記の`入部希望者フォーム`と`簡易入部テスト`を回答してもらう必要があります．<br>
-簡易入部テストでは，時間制限無し且つ検索 OK で，Microsoft Forms を使用した簡単なリテラシーレベルの問題を用意しています．<br>
 また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください．
 これは 2 つのフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．
 
@@ -35,8 +34,11 @@ tags = ["Introduction"]
 [埋め込みが動作しない場合はこちらから(入部希望者フォーム)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u)
 
 
-### 公式 SNS
+### お問い合わせ & SNS
 
+ご不明な点や入部に関して気になる場合は，下記のアドレスにメールしてくれると助かります．
+
+- <a href="mailto:f1ti3ec@gmail.com">f1ti3ec@gmail.com</a>
 - [X](https://x.com/FIT_ISec)
 
 #### 右下の`READ MORE`を押し，ページを開くとより詳しい情報が見れます．
