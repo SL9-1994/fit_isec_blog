@@ -19,13 +19,9 @@ tags = ["Introduction"]
 
 ## 学内の入部希望者について (重要)
 
-<!-- > ※ 現在，簡易入部テストの問題を作成中です．今しばらくお待ちください。 -->
-
-<!-- 入部に際して，下記の`入部希望者フォーム`と`簡易入部テスト`を回答してもらう必要があります．<br> -->
-入部に際して，下記の`入部希望者フォーム`を回答してもらう必要があります．<br>
-<!-- また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください． -->
-<!-- これは 2 つのフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます． -->
-`入部希望者フォーム`フォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．<br>
+入部に際して，下記の`入部希望者フォーム`と`簡易入部クイズ`を回答してもらう必要があります．<br>
+また，入部希望者フォームと簡易入部テストの個人情報は同一のものを入力してください．<br>
+これは 2 つのフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．<br>
 また，ご不明な点等ございましたら，下記の`お問い合わせ & SNS`セクションにあるメールアドレスに問い合わせをお願いします．
 
 > 回答には学内メールアドレスでのログインが必要です．
@@ -36,6 +32,11 @@ tags = ["Introduction"]
 
 [埋め込みが動作しない場合はこちらから(入部希望者フォーム)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u)
 
+#### 簡易入部クイズフォーム
+
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+[埋め込みが動作しない場合はこちらから(簡易入部クイズフォーム)](https://forms.office.com/Pages/ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBURURGMTJVWFVPNUVKWlBVSjJINlZLUFc3Vi4u)
 
 ### お問い合わせ & SNS
 
@@ -48,10 +49,25 @@ tags = ["Introduction"]
 
 <!--more-->
 
-### サークルの活動状況
+### サークルの活動状況とメンバー
 
 サークルとして活動するためには，5 人以上のメンバーを集める必要があります．<br>
-現在はメンバーを募集している段階ですので，`公式なサークルではありません`
+現在はメンバーを募集している段階ですので，`公式なサークルではありません`<br>
+5人集まり次第，サークルの申請を行います．
+
+| 学年 | 区分 | 人数 |
+| :--- | :--- | :--- |
+| **B1** | 学部1年 | 1 (男性: `1`，女性:0) |
+| **B2** | 学部2年 | 0 (男性: 0，女性0) |
+| **B3** | 学部3年 | 0 (男性: 0，女性0) |
+| **B4** | 学部4年 | 1 (男性: `1`，女性0) |
+| **M1** | 修士1年 | 0 (男性: 0，女性0) |
+| **M2** | 修士2年 | 0 (男性: 0，女性0) |
+| **D1** | 博士1年 | 0 (男性: 0，女性0) |
+| **D2** | 博士2年 | 0 (男性: 0，女性0) |
+| **D3** | 博士3年 | 0 (男性: 0，女性0) |
+| **All** | 総人数 | 2 (男性: `2`，女性0) |
+
 
 ### サークルの設立理由
 
