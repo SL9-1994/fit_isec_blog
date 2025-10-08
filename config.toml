@@ -81,7 +81,7 @@ social_links = [
   # { platform = "feed", user_id = true },
   # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
   # { platform = "facebook", user_id = "" },
-  # { platform = "instagram", user_id = "" },
+  { platform = "instagram", user_id = "fit_isec" },
   # { platform = "pinterest", user_id = "" },
   { platform = "twitter", user_id = "FIT_ISec" },
   # { platform = "stackoverflow", user_id = "" },
