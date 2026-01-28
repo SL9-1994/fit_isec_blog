@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>FIT_ISec</title>
+    <subtitle>福岡工業大学 情報セキュリティサークル</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://blog.fit-isec.net/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://blog.fit-isec.net/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-28T00:00:00+00:00</updated>
+    <id>https://blog.fit-isec.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>「福岡工業大学 情報セキュリティサークル・FIT ISec」(入部方法)</title>
+        <published>2025-09-28T00:00:00+00:00</published>
+        <updated>2025-09-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              x0rbyt3
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.fit-isec.net/posts/fit-isec/"/>
+        <id>https://blog.fit-isec.net/posts/fit-isec/</id>
+        
+        <summary type="html">&lt;h1 id=&quot;fit-isec&quot;&gt;FIT_ISec&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;fit-isec-toha&quot;&gt;「FIT ISec」とは&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;FIT ISec&lt;&#x2F;code&gt;は福岡工業大学の学内サークル (現在は非公式) であり，主に情報セキュリティに関しての研究や実践，学習を行っています．&lt;br&gt;
+創設者兼リーダーは情報工学科の B1(2026 年現在)です．&lt;br&gt;
+私自身も，情報工学やサイバーセキュリティに関して初学者ですので，メンバー同士で高め合えるサークルにしたいと考えております！&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;サークル名の由来: Information Security の頭文字&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h2 id=&quot;xue-nei-noru-bu-xi-wang-zhe-nituite-zhong-yao&quot;&gt;学内の入部希望者について (重要)&lt;&#x2F;h2&gt;
+&lt;p&gt;入部に際して，下記の&lt;code&gt;入部希望者フォーム&lt;&#x2F;code&gt;を回答してもらう必要があります．&lt;br&gt;
+このフォームに回答してくださった方には，確認次第，リーダーからメールが送信されます．&lt;br&gt;
+また，ご不明な点等ございましたら，下記の&lt;code&gt;お問い合わせ &amp;amp; SNS&lt;&#x2F;code&gt;セクションにあるメールアドレスに問い合わせをお願いします！&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;回答には学内メールアドレスでのログインが必要です．&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h4 id=&quot;ru-bu-xi-wang-zhe-huomu&quot;&gt;入部希望者フォーム&lt;&#x2F;h4&gt;
+&lt;iframe width=&quot;640px&quot; height=&quot;480px&quot; src=&quot;https:&#x2F;&#x2F;forms.office.com&#x2F;Pages&#x2F;ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u&amp;embed=true&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; style=&quot;border: none; max-width:100%; max-height:100vh&quot; allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen&gt; &lt;&#x2F;iframe&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;forms.office.com&#x2F;Pages&#x2F;ResponsePage.aspx?id=NIp2LOKKdUey6PnQAqEadNeWli7uRm5PgqZccQdHKXBUNk1XSVVDWFRLOEEzR0FMRzVSR0FMR0FCWS4u&quot;&gt;埋め込みが動作しない場合はこちらから(入部希望者フォーム)&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;owen-ihe-wase-sns&quot;&gt;お問い合わせ &amp;amp; SNS&lt;&#x2F;h3&gt;
+&lt;p&gt;ご不明な点や入部に関して気になる場合は，下記のアドレスにメールしてくれると助かります．&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;mailto:f1ti3ec@gmail.com&quot;&gt;f1ti3ec@gmail.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;x.com&#x2F;FIT_ISec&quot;&gt;X&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.instagram.com&#x2F;fit_isec&quot;&gt;Instagram&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h4 id=&quot;you-xia-noread-morewoya-si-peziwokai-kutoyorixiang-siiqing-bao-gajian-remasu&quot;&gt;右下の&lt;code&gt;READ MORE&lt;&#x2F;code&gt;を押し，ページを開くとより詳しい情報が見れます．&lt;&#x2F;h4&gt;</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>リーダーの自己紹介</title>
+        <published>2025-09-27T00:00:00+00:00</published>
+        <updated>2025-09-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              x0rbyt3
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://blog.fit-isec.net/posts/introduction-of-leader/"/>
+        <id>https://blog.fit-isec.net/posts/introduction-of-leader/</id>
+        
+        <summary type="html">&lt;h2 id=&quot;zi-ji-shao-jie&quot;&gt;自己紹介&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;名前: x0rbyt3&lt;&#x2F;li&gt;
+&lt;li&gt;学部: 情報工学部・情報工学科 B1&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;</summary>
+        
+    </entry>
+</feed>
