@@ -83,7 +83,7 @@ $ git config --global user.email "your.email@example.com"
 $ git config --global init.defaultBranch main
 ```
 
-## 4. WSLとWindowsホストの相互ファイル操作
+## 4. WSL・Windowsホストの相互ファイル操作
 
 ### 4.1 Windows -> WSL
 
