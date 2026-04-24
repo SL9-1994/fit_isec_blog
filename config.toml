@@ -5,7 +5,7 @@ base_url = "https://blog.fit-isec.net/"
 title = "FIT_ISec"
 
 # The description of the site
-description = "福岡工業大学 情報セキュリティサークル"
+description = "福岡工業大学 非公式情報セキュリティサークル"
 
 author = "x0rbyt3"
 
@@ -76,12 +76,12 @@ simplified_tags = false
 # Social links
 social_links = [
   { platform = "email", user_id = "f1ti3ec@gmail.com" },
-  { platform = "github", user_id = "sl9-1994" },
+  # { platform = "github", user_id = "xxxx" },
   # { platform = "linkedin", user_id = "johndoe" },
   # { platform = "feed", user_id = true },
   # { platform = "keyoxide", user_id = "aspe:host:XXXXXXX" },
   # { platform = "facebook", user_id = "" },
-  { platform = "instagram", user_id = "fit_isec" },
+  # { platform = "instagram", user_id = "xxxx" },
   # { platform = "pinterest", user_id = "" },
   { platform = "twitter", user_id = "FIT_ISec" },
   # { platform = "stackoverflow", user_id = "" },
