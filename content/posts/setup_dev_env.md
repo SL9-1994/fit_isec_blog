@@ -14,14 +14,14 @@ tags = ["setup"]
 
 初学者向けなため，`Kali・Parrot・BlackArch` 等のセキュリティ監査用のOSではなく，WSL2を介して `Ubuntu` を導入します．
 
+<!--more-->
+
 ## 2. WSL2の有効化
 
 ### 2.1 導入要件
 
 - **OS**: Windows 10 バージョン2004以降 / Windows 11
 - **BIOS設定**: CPU仮想化機能 (`VT-x/AMD-V`) が有効であること
-
-<!--more-->
 
 ### 2.2 CPU仮想化機能の有効化・確認方法
 
