@@ -1,6 +1,7 @@
 {%- set disallows = [
   "/404.html",
-  "/files/*"
+  "/files/*",
+  "/secret_flag.txt"
 ] -%}
 User-agent: *
 {%- for disallowed in disallows %}
