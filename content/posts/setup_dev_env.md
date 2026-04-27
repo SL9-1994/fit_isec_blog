@@ -91,7 +91,7 @@ $ git config --global init.defaultBranch main
 ### 4.1 Windows -> WSL
 
 ```powershell
-PS C:\WINDOWS\system32> dir \\wsl$\NixOS
+PS C:\WINDOWS\system32> dir \\wsl$\Ubuntu
 ```
 
 ### 4.2 WSL -> Windows
