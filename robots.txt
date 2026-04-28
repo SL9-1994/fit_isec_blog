@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /files/*
+Disallow: /secret_flag.txt
+Allow: /
+Sitemap: https://blog.fit-isec.net/sitemap.xml
