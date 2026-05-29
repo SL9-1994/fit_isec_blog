@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="ja-JP" xml:lang="ja-JP">
+  
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="shortcut icon" type="image/png" sizes="32x32" href="https://blog.fit-isec.net/favicon-32x32.png">
+<link rel="alternate" type="application/atom+xml" title="Atom feed" href="https://blog.fit-isec.net/atom.xml">
+<link rel="stylesheet" href="https://blog.fit-isec.net/main.css">
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9LJD7HXS2F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-9LJD7HXS2F');
+</script>
+
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+<title>feat: 環境構築をやってみよう！ | FIT_ISec</title>
+<meta name="generator" content="Zola">
+<meta name="description" content="1. はじめに活動に使用する環境を構築します．
+既に Linux の環境を持っており，自分でツールをインストールできる知識がある場合はそれを使用してください．
+この記事は Windows OS を対象にしています．初学者向けなため，Kali・Parrot・BlackArch 等のセキュリティ監査用のOSではなく，WSL2を介して Ubuntu を導入します．2. WSL2の有効化2.1 導入要件O…">
+<meta name="author" content="x0rbyt3">
+<link rel="canonical" href="https://blog.fit-isec.net/posts/setup-dev-env/">
+  <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://blog.fit-isec.net/images/icon_512x512.png">
+  <meta name="twitter:title" content="feat: 環境構築をやってみよう！">
+  <meta name="twitter:description" content="1. はじめに活動に使用する環境を構築します．
+既に Linux の環境を持っており，自分でツールをインストールできる知識がある場合はそれを使用してください．
+この記事は Windows OS を対象にしています．初学者向けなため，Kali・Parrot・BlackArch 等のセキュリティ監査用のOSではなく，WSL2を介して Ubuntu を導入します．2. WSL2の有効化2.1 導入要件O…">
+  
+  <meta property="og:title" content="feat: 環境構築をやってみよう！">
+  <meta property="og:description" content="1. はじめに活動に使用する環境を構築します．
+既に Linux の環境を持っており，自分でツールをインストールできる知識がある場合はそれを使用してください．
+この記事は Windows OS を対象にしています．初学者向けなため，Kali・Parrot・BlackArch 等のセキュリティ監査用のOSではなく，WSL2を介して Ubuntu を導入します．2. WSL2の有効化2.1 導入要件O…">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://blog.fit-isec.net/posts/setup-dev-env/">
+    <meta property="og:image" content="https://blog.fit-isec.net/images/icon_512x512.png">
+
+  <meta property="og:site_name" content="feat: 環境構築をやってみよう！">
+  <meta property="og:locale" content="ja_JP">
+    <meta property="article:published_time" content="2026-04-24T00:00:00+00:00">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://blog.fit-isec.net/posts/setup-dev-env"
+      },
+      "headline": "feat: 環境構築をやってみよう！",
+      "description": "1. はじめに活動に使用する環境を構築します．
+既に Linux の環境を持っており，自分でツールをインストールできる知識がある場合はそれを使用してください．
+この記事は Windows OS を対象にしています．初学者向けなため，Kali・Parrot・BlackArch 等のセキュリティ監査用のOSではなく，WSL2を介して Ubuntu を導入します．2. WSL2の有効化2.1 導入要件O…",
+      "wordcount": "587",
+      "datePublished": "2026-04-24T00:00:00+00:00",
+      "dateModified": "2026-04-24T00:00:00+00:00",
+      "author": {
+        "@type": "Person",
+        "name": "x0rbyt3"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "feat: 環境構築をやってみよう！",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blog.fit-isec.net/images/icon_512x512.png"
+        }
+      }
+    }
+    </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <a id="a-title" href="https://blog.fit-isec.net">
+        <h1>FIT_ISec</h1>
+      </a>
+      <h2>福岡工業大学 非公式情報セキュリティサークル</h2>
+      <nav id="navbar">
+  <a href="https://blog.fit-isec.net/about" class="btn">About</a>
+  <a href="https://blog.fit-isec.net/tags" class="btn">Tags</a>
+  <a href="https://github.com/SL9-1994" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+</nav>
+</div>
+  </header>
+
+  <div class="container">
+    <main>
+<!-- Flag 2/3 -->
+<script>
+  const key = "flag";
+  const value = "2/3 FIT{jpegとjpgを統一してほしい}";
+
+  localStorage.setItem(key, value);
+</script>
+
+<article class="page">
+  <div class="header-container">
+    <h2>feat: 環境構築をやってみよう！</h2>
+    <div class="improve hide-on-mobiles">
+      
+<a href="https://github.com/SL9-1994/fit_isec_blog/edit/master/content/posts/setup_dev_env.md" title="Help improve page https://blog.fit-isec.net/posts/setup-dev-env/">Improve this page</a>
+
+    </div>
+  </div>
+  <div class="page-info">
+    <span>Tags = [
+      <a href="https://blog.fit-isec.net/tags/setup/" class="page-tag">setup</a> ]
+    </span>
+    <time class="page-time smaller" datetime=" 2026-04-24T00:00:00+00:00">
+      Posted on April 24, 2026 at 09:00 JST
+    </time>
+  </div>
+  <div class="entry">
+    <!-- Flag 1/3 -->
+<!-- 31 2f 33 20 46 49 54 7b e6 9c 80 e8 bf 91 ef bc 8c e8 a6 96 e5 8a 9b e3 81 ae e4 bd 8e e4 b8 8b e3 81 8c e5 87 84 e3 81 be e3 81 98 e3 81 84 e3 82 93 e3 81 a0 e3 81 91 e3 81 a9 2e 2e 2e 7d -->
+<h2 id="1-hazimeni">1. はじめに</h2>
+<p>活動に使用する環境を構築します．<br>
+既に <strong>Linux</strong> の環境を持っており，自分でツールをインストールできる知識がある場合はそれを使用してください．<br>
+この記事は <strong>Windows OS</strong> を対象にしています．</p>
+<p>初学者向けなため，<code>Kali・Parrot・BlackArch</code> 等のセキュリティ監査用のOSではなく，WSL2を介して <code>Ubuntu</code> を導入します．</p>
+<span id="continue-reading"></span><h2 id="2-wsl2noyou-xiao-hua">2. WSL2の有効化</h2>
+<h3 id="2-1-dao-ru-yao-jian">2.1 導入要件</h3>
+<ul>
+<li><strong>OS</strong>: Windows 10 バージョン2004以降 / Windows 11</li>
+<li><strong>BIOS設定</strong>: CPU仮想化機能 (<code>VT-x/AMD-V</code>) が有効であること</li>
+</ul>
+<h3 id="2-2-cpujia-xiang-hua-ji-neng-noyou-xiao-hua-que-ren-fang-fa">2.2 CPU仮想化機能の有効化・確認方法</h3>
+<p>CLIで確認する方法もありますが，今回はGUIを使用します．</p>
+<ol>
+<li><code>win + r</code> から <code>taskmgr</code> を実行するか，<code>Ctrl + Shift + Esc</code> でタスクマネージャーを開きます．</li>
+<li>左側のメニューから「<strong>パフォーマンス</strong>」タブを選択し，「<strong>CPU</strong>」をクリックします．</li>
+<li>グラフの右下にある情報欄に「<strong>仮想化: 有効</strong>」と記載されているか確認します．</li>
+</ol>
+<p><img src="/images/setup_dev_env-01.png" alt="setup_dev_env-01" /></p>
+<p>これで，有効化されていない場合は，各コンピュータで固有の起動キーを調べ <code>UEFI/BIOS</code> を起動して，<code>Virtualization Technology</code> を有効化してください．</p>
+<p>再起動後，仮想化が有効になっていれば次のセクションに進んでください．</p>
+<h3 id="2-3-terminalnoinsutoru">2.3 Terminalのインストール</h3>
+<p><code>Microsoft Store</code> から <code>Windows Terminal</code> を導入してください．</p>
+<p><img src="/images/setup_dev_env-02.png" alt="setup_dev_env-02" /></p>
+<h3 id="2-4-wsl2noyou-xiao-hua-ubuntu-noinsutoru">2.4 WSL2の有効化 &amp; Ubuntu のインストール</h3>
+<p><code>PowerShell</code> を <strong>管理者権限</strong> で立ち上げ，以下のコマンドを実行してください．インストール後に，コンピュータを <strong>再起動</strong> してください．</p>
+<pre class="giallo" style="color: #F8F8F2; background-color: #282A36;"><code data-lang="powershell"><span class="giallo-l"><span>PS C:\WINDOWS\system3</span><span style="color: #FF79C6;">2&gt;</span><span> wsl </span><span style="color: #FF79C6;">--</span><span>install</span></span></code></pre>
+<p>このコマンドで，以下の機能が実行されます．</p>
+<ul>
+<li>WSL機能の有効化</li>
+<li>仮想マシンプラットフォームの有効化</li>
+<li>Linuxカーネルのインストール</li>
+<li>WSL2をデフォルトに設定</li>
+<li>Ubuntuのインストール</li>
+</ul>
+<h3 id="2-5-insutoruhou-noge-zhong-she-ding">2.5 インストール後の各種設定</h3>
+<p><code>Windows Terminal</code> のタブから，<code>Ubuntu</code> を選択し起動するとパスワードとユーザネームを求められるので，設定してください．</p>
+<pre class="giallo" style="color: #F8F8F2; background-color: #282A36;"><code data-lang="shellscript"><span class="giallo-l"><span style="color: #6272A4;"># パッケージ更新</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> sudo apt update</span><span> &amp;&amp;</span><span style="color: #50FA7B;"> sudo</span><span style="color: #F1FA8C;"> apt upgrade</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #6272A4;"># 日本語環境</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> sudo apt install language-pack-ja</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> sudo update-locale LANG=ja_JP.UTF-8</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #6272A4;"># タイムゾーン設定</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> sudo timedatectl set-timezone Asia/Tokyo</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #6272A4;"># 最低限必要なツール</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> sudo apt install build-essential curl wget git nano</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #6272A4;"># gitの設定 (Githubアカウントを所持している前提)</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> git config</span><span style="color: #BD93F9;"> --global</span><span style="color: #F1FA8C;"> user.name</span><span style="color: #E9F284;"> &quot;</span><span style="color: #F1FA8C;">Your Name</span><span style="color: #E9F284;">&quot;</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> git config</span><span style="color: #BD93F9;"> --global</span><span style="color: #F1FA8C;"> user.email</span><span style="color: #E9F284;"> &quot;</span><span style="color: #F1FA8C;">your.email@example.com</span><span style="color: #E9F284;">&quot;</span></span>
+<span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> git config</span><span style="color: #BD93F9;"> --global</span><span style="color: #F1FA8C;"> init.defaultBranch main</span></span></code></pre><h2 id="4-wsl-windowshosutonoxiang-hu-huairucao-zuo">4. WSL・Windowsホストの相互ファイル操作</h2>
+<h3 id="4-1-windows-wsl">4.1 Windows -&gt; WSL</h3>
+<pre class="giallo" style="color: #F8F8F2; background-color: #282A36;"><code data-lang="powershell"><span class="giallo-l"><span>PS C:\WINDOWS\system3</span><span style="color: #FF79C6;">2&gt;</span><span> dir \\wsl$\Ubuntu</span></span></code></pre><h3 id="4-2-wsl-windows">4.2 WSL -&gt; Windows</h3>
+<pre class="giallo" style="color: #F8F8F2; background-color: #282A36;"><code data-lang="shellscript"><span class="giallo-l"><span style="color: #50FA7B;">$</span><span style="color: #F1FA8C;"> ls</span><span style="color: #BD93F9;"> -la</span><span style="color: #F1FA8C;"> /mnt/c</span></span></code></pre>
+  </div><div class="giscus comments"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="SL9-1994&#x2F;fit_isec_blog"
+        data-repo-id="R_kgDOP4Q8Hg"
+        data-category="General"
+        data-category-id="DIC_kwDOP4Q8Hs4Cv_B6"
+        data-mapping="og:title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="fro"
+        data-lang="ja"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+</article>
+
+    </main>
+  </div>
+  <footer>
+    <a href="mailto:f1ti3ec@gmail.com"><i class="svg-icon icon-mail"></i></a>
+    <a href="https://www.twitter.com/FIT_ISec"><i class="svg-icon icon-twitter"></i></a>
+<span class="copyright">&copy; 2025 - 2026 x0rbyt3</span>
+</footer>
+</body>
+
+</html>
